@@ -1,5 +1,5 @@
-FROM stackbrew/ubuntu:12.04
-MAINTAINER Ben Firshman <ben@orchardup.com>
+FROM ubuntu:14.04
+MAINTAINER Leandro Costa <leandro.costa@gmail.com>
 
 RUN apt-get update -qq && apt-get install -y mysql-server-5.5
 

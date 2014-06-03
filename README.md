@@ -20,9 +20,9 @@ Here's how it works:
     Enter password:
     Welcome to the MySQL monitor.  Commands end with ; or \g.
     Your MySQL connection id is 1
-    Server version: 5.5.34-0ubuntu0.12.04.1-log (Ubuntu)
+    Server version: 5.5.37-0ubuntu0.14.04.1-log (Ubuntu)
 
-    Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
+    Copyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved.
 
     Oracle is a registered trademark of Oracle Corporation and/or its
     affiliates. Other names may be trademarks of their respective
