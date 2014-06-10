@@ -1,7 +1,10 @@
 FROM ubuntu:14.04
 MAINTAINER Leandro Costa <leandro.costa@gmail.com>
 
-RUN apt-get update -qq && apt-get install -y mysql-server-5.5
+RUN apt-get update -qq
+RUN apt-get upgrade -y
+
+RUN apt-get install -y mysql-server-5.5
 
 ADD my.cnf /etc/mysql/conf.d/my.cnf
 RUN chmod 664 /etc/mysql/conf.d/my.cnf
